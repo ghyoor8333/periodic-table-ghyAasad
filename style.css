@@ -1,0 +1,33 @@
+.main-elements{
+    width: 80%;
+    margin: auto;
+    margin-top: 4%;
+}
+.row-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* .elements{
+    border: 2px solid yellow;
+} */
+.elements button{
+    font-size: 24px;
+    padding: 7px 16px;
+    width: 150px;
+    background-color: aquamarine;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.elements button:hover{
+    background-color: rgb(122, 231, 194);
+}
+.details{
+    margin-top: 3%;
+}
+.details-div{
+    border: 2px solid green;
+    width: 80%;
+    margin: auto;
+    height: 400px;
+}
