@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
     <section>
-        <div class="main-elements">
-             <div class="row-1">
-                 <div class="elements"><button>H</button></div>
-                 <div class="elements"><button>He</button></div>
-                 <div class="elements"><button>Li</button></div>
-                 <div class="elements"><button>Na</button></div>
-                 <div class="elements"><button>Mg</button></div>
-                 <div class="elements"><button>Li</button></div>
-                 <div class="elements"><button>Na</button></div>
-                 <div class="elements"><button>Mg</button></div>    
-                 <div class="elements"><button>Li</button></div>
-                            
-             </div> 
+      <div class="main-elements">
+        <div class="row-1">
+            <div class="elements" atomic-number="1"><button>H</button></div>
+            <div class="elements" atomic-number="2"><button>He</button></div>
+            <div class="elements" atomic-number="3"><button>Li</button></div>
+            <div class="elements" atomic-number="4"><button>Be</button></div>
+            <div class="elements" atomic-number="5"><button>B</button></div>
+            <div class="elements" atomic-number="6"><button>C</button></div>
+            <div class="elements" atomic-number="7"><button>N</button></div>
+            <div class="elements" atomic-number="8"><button>O</button></div>
+            <div class="elements" atomic-number="9"><button>F</button></div>
+            <div class="elements" atomic-number="10"><button>Ne</button></div>
         </div>
+      </div>
     </section>
     <section class="details">
-        <div class="details-div">
-            <h1 class="element-name">Hydrogen</h1>
-            <div class="properties-elem">
-               <div class="atomic-number">Atomic number</div>
-               <div class="states">Gas</div>
-               <div class="short-elem-name">H</div>
-               <div class="atomic-weight">Atomic weight</div>
-            </div>  
+      <div class="details-div" style="display: none;">
+        <button class="close-btn">
+          <span class="material-symbols-outlined"> close </span>
+        </button>
+        <h1 class="element-name">Hydrogen</h1>
+        <div class="properties-elem">
+          <div class="atomic-number">Atomic number</div>
+          <div class="states">Gas</div>
+          <div class="short-elem-name">H</div>
+          <div class="atomic-weight">Atomic weight</div>
         </div>
+      </div>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
