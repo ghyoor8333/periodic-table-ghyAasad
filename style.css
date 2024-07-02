@@ -6,6 +6,8 @@
 .row-1{
     display: flex;
     justify-content: space-evenly;
+    gap: 6px;
+    flex-wrap: wrap;
 }
 /* .elements{
     border: 2px solid yellow;
@@ -17,17 +19,67 @@
     background-color: aquamarine;
     cursor: pointer;
     border-radius: 10px;
+    transition: box-shadow 0.3s ease;
 }
 
 .elements button:hover{
     background-color: rgb(122, 231, 194);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .details{
     margin-top: 3%;
 }
 .details-div{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 80%;
     margin: auto;
     height: 400px;
+}
+.element-name{
+    text-align: center;
+    font-size: 35px;
+    background-color: bisque;
+    padding: 1%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.properties-elem{
+    position: relative;
+    /* border: 2px solid rgb(29, 229, 29); */
+    width: 85%;
+    margin: auto;
+    height: 280px;
+    font-size: 22px;
+}
+.atomic-number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* border: 2px solid red; */
+    margin: 5% 4%;
+    padding: 3px;
+    
+}
+.states{
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* border: 2px solid red; */
+    margin: 5% 4%;
+    padding: 3px;
+}
+.short-elem-name{
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    /* border: 2px solid red; */
+    margin: 5% 4%;
+    padding: 3px;  
+}
+.atomic-weight{  
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    /* border: 2px solid red; */
+    margin: 5% 4%;
+    padding: 3px;
 }
