@@ -78,7 +78,9 @@ $(document).ready(function () {
         // $('.atomic-number').html("HI I AM NTH ELEMENT OF PERIODIC TABLE");
         // $('.details-div').fadeIn('slow');
         $('.details-div').show('slow');
-        var atomicNumber = $(this).attr('atomic-number'); // Get the 'data-atomic-number' attribute value
+        var atomicNumber = $(this).attr('atomic-number');
+        PopulatePopupDetails(atomicNumber);
+         // Get the 'data-atomic-number' attribute value
         // alert(`Atomic number clicked: ${atomicNumber}`);
     });
     $('.close-btn').click(function () {
@@ -114,6 +116,5 @@ function PopulatePopupDetails(atomicNumber){
     $('.details-div').show();
   } else {
     console.error(`Element with atomic number ${atomicNumber} not found.`);
-  }
-    
+  }    
 }
